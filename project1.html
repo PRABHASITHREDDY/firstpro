@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gym</title>
+   
+</head>
+    <link rel="stylesheet" href="project1.css">
+   <style>
+       body{
+           color: white;
+           margin: 0px;
+           padding: 0px;
+           background-image: url('back.png');
+       }
+       .left{
+            display: inline-block;
+
+           /* border: 2px solid red;*/
+            position: absolute;
+            left: 50px;
+            top: 20px;
+            text-align: center;
+       }
+       .mid{
+           display: block;
+           width: 33%;
+           margin: 20px auto;
+          /* border: 2px solid green;*/
+       
+        
+       }
+       .right{
+           position: absolute;
+           right: 34px;
+          top: 22px;
+           display: inline-block;
+          /* border: 2px solid yellow;*/
+        padding: 5px;
+       }
+       .navbar{
+           color: white;
+           display: inline-block;
+       }
+       .navbar li{
+           display: inline-block;
+            margin-left: 15px;
+            color: white;
+            font-size: 17px;
+            
+       }
+       .navbar li a{
+           color: white;
+           text-decoration: none;
+       }
+       .navbar li a:hover,.navbar li a.active{
+           text-decoration: underline;
+           color: violet;
+       }
+       .left img{
+           width: 120px;
+       }
+       .call{
+           margin: 5px;
+           cursor: pointer;
+       }
+       .mail{
+           margin: 5px;
+           cursor: pointer;
+       }
+       .call:hover{
+           background-color:blueviolet;
+       }
+       .mail:hover{
+           background-color: blueviolet;
+       }
+       .container{
+           background-color: black;
+          /* border: 2px solid white ;*/
+           margin: auto;
+           width: 33%;
+           height: 35%;
+           margin-left: 2%;
+           margin-top: 10%;
+           position: absolute;
+           color: white;
+           display: block;
+           text-align: center;
+       }
+      .group input{
+          width 20px;
+          text-align: center;
+         font-size: 20px;
+         
+      }
+      
+
+     
+   </style>
+   
+<body >
+    <header class="header"> 
+        <div class="left">
+         
+            <img src="icon.png" alt="">
+                <div>Fitness</div>
+
+         
+        </div>  
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact us</a</li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="call">call us</button>
+            <button class="mail">mail us</button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h2>join our gym</h2>
+        <form action="noform.php">
+                <br>
+            <div class="group">
+                <input type="text" placeholder="enter name">
+             
+            
+            </div>
+            <br>
+            <div class="group">
+             <input type="text"placeholder="enter age">
+
+            </div>
+            <br>
+           <div class="group">
+                <input type="number" placeholder="enter phone number">
+           </div>
+           <br>
+           <button class="btn">submit</button>
+           
+            
+        </form>
+    </div>
+
+
+</body>
+
+   
+      
+    
+
+</html>
